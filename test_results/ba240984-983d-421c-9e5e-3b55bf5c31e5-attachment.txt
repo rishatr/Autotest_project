@@ -1,0 +1,17 @@
+START TEST
+click menu
+click elektronika
+click phones
+click smartphones
+click filter
+click checkbox
+input max price
+click ready price button
+click iphone
+click add to cart
+search
+click airpods
+click add to cart
+click cart
+Correct prices
+ FINISH TEST

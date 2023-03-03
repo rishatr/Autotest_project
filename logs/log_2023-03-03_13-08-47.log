@@ -1,0 +1,22 @@
+
+-----
+Test: tests/test_buy_iphone.py::test_buy_iphone (call)
+Start time: 2023-03-03 13:08:55.310453
+Start name method: buy_iphone
+
+End time: 2023-03-03 13:09:12.639642
+End name method: buy_iphone
+URL: https://www.wildberries.ru/catalog/139448124/detail.aspx
+
+-----
+
+-----
+Test: tests/test_buy_iphone.py::test_buy_iphone (call)
+Start time: 2023-03-03 13:09:12.641634
+Start name method: buy_airpods
+
+End time: 2023-03-03 13:09:22.651254
+End name method: buy_airpods
+URL: https://www.wildberries.ru/lk/basket
+
+-----
