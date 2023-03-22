@@ -27,7 +27,7 @@ class Main_page(Base):
     add_to_cart_locator = "div.product-page__aside-container.j-price-block > div:nth-child(2) > div > button:nth-child(2)"
     cart_locator = ".navbar-pc__icon.navbar-pc__icon--basket"
     search_box_locator = "#searchInput"
-    airpods_locator = "#c103324608 > div > a > div.product-card__img > div.product-card__img-wrap.img-plug.j-thumbnail-wrap"
+    airpods_locator = "#c147716518 > div > a > div.product-card__img > div.product-card__img-wrap.img-plug.j-thumbnail-wrap"
     price_locator = "div.product-page__price-block.product-page__price-block--aside > div > div > p > span > ins"
 
     # Getters
