@@ -23,11 +23,11 @@ class Main_page(Base):
     checkbox_locator = "div.filters-desktop__item.j-filter-container.filters-desktop__item--type-1.filters-desktop__item--fbrand.open.show > div.filter > ul > li:nth-child(3) > div"
     max_price_locator = "[name='endN']"
     ready_button_locator = ".filters-desktop__btn-main.btn-main"
-    iphone_locator = "#c139448124 > div > a > div.product-card__img > div.product-card__img-wrap.img-plug.j-thumbnail-wrap"
+    iphone_locator = "#c141305538 > div > a"
     add_to_cart_locator = "div.product-page__aside-container.j-price-block > div:nth-child(2) > div > button:nth-child(2)"
     cart_locator = ".navbar-pc__icon.navbar-pc__icon--basket"
     search_box_locator = "#searchInput"
-    airpods_locator = "#c147716518 > div > a > div.product-card__img > div.product-card__img-wrap.img-plug.j-thumbnail-wrap"
+    airpods_locator = "#c103324608 > div > a"
     price_locator = "div.product-page__price-block.product-page__price-block--aside > div > div > p > span > ins"
 
     # Getters
@@ -76,7 +76,6 @@ class Main_page(Base):
     # Actions
 
     def click_menu(self):
-        # self.get_menu_locator().click()
         ActionChains(self.driver).double_click(self.get_menu_locator()).perform()
         print("click menu")
 
@@ -147,6 +146,7 @@ class Main_page(Base):
             time.sleep(1)
             self.input_max_price("100000")
             self.click_ready_button()
+            time.sleep(1)
             self.click_iphone()
             self.click_add_to_cart()
             Logger.add_end_step(url=self.driver.current_url, method="buy_iphone")
