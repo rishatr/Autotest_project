@@ -23,4 +23,5 @@ jobs:
         run: sudo apt-get install xvfb
 
       - name: Running the Python script
-        run: python tests/test_buy_iphone.py
+        run: Autotest_project
+        # run: python tests/test_buy_iphone.py
