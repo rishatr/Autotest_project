@@ -21,6 +21,8 @@ jobs:
         run: pip install webdriver-manager selenium pyvirtualdisplay
       - name: Install xvfb
         run: sudo apt-get install xvfb
+      - name: Install pytest
+        run: pip install pytest
 
       - name: Running the Python script
         run: python -m pytest -s -v test_buy_iphone.py
