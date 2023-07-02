@@ -27,4 +27,4 @@ jobs:
         run: sudo apt-get -y install allure
 
       - name: Running the Python script
-        run: python -m pytest tests/test_buy_iphone.py
+        run: python -m pytest -s -v tests/test_buy_iphone.py
