@@ -158,5 +158,5 @@ class Main_page(Base):
             self.click_airpods()
             self.click_add_to_cart()
             self.click_cart()
-            time.sleep(5)
+            time.sleep(1)
             Logger.add_end_step(url=self.driver.current_url, method="buy_airpods")
