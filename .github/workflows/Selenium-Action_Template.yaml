@@ -24,7 +24,7 @@ jobs:
       - name: Install pytest
         run: pip install pytest
       - name: Install allure
-        run: sudo apt-get -y install allure
+        run: pip install allure-pytest
 
       - name: Running the Python script
         run: python -m pytest -s -v tests/test_buy_iphone.py
