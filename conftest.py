@@ -12,8 +12,7 @@ def set_up():
     # options.add_argument("--window-size=1920,800")
     # options.add_argument("--headless")
     options.add_experimental_option("excludeSwitches", ["enable-logging"])
-    driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
-    # driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=options)
+    driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=options)
     url = "https://www.wildberries.ru/"
     driver.get(url)
     driver.maximize_window()
