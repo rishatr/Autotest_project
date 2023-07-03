@@ -80,6 +80,7 @@ class Main_page(Base):
         print("click menu")
 
     def click_elektronika(self):
+        print("try to click elektronika")
         self.get_elektronika_locator().click()
         print("click elektronika")
 
