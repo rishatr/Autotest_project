@@ -26,5 +26,7 @@ jobs:
       - name: Install allure
         run: pip install allure-pytest
 
+      - name: Open tests folder
+        run: cd tests
       - name: Running the Python script
-        run: python -m pytest -s -v tests/test_buy_iphone.py
+        run: python -m pytest -s -v test_buy_iphone.py
