@@ -10,7 +10,7 @@ def set_up():
     print("START TEST")
     options = Options()
 
-
+    options.add_argument("--window-size=1920,800")
     options.add_experimental_option("excludeSwitches", ["enable-logging"])
     driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=options)
     url = "https://www.wildberries.ru/"
