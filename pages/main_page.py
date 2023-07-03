@@ -138,7 +138,7 @@ class Main_page(Base):
         with allure.step("Buy IPhone"):
             Logger.add_start_step(method="buy_iphone")
             self.click_menu()
-            time.sleep(1)
+            time.sleep(10)
             self.click_elektronika()
             self.click_phones()
             self.click_smartphones()
