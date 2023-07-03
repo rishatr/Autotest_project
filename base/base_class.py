@@ -18,4 +18,4 @@ class Base():
     def screenshot(self):
         now_date = datetime.datetime.now().strftime("%Y.%m.%d.%H.%M.%S")
         screenshot_name = "business_way" + now_date + ".png"
-        self.driver.save_screenshot("..\\screens\\" + screenshot_name)
+        self.driver.save_screenshot(".\\screens\\" + screenshot_name)
