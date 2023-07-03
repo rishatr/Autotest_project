@@ -15,7 +15,7 @@ def set_up():
     driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=options)
     url = "https://www.wildberries.ru/"
     driver.get(url)
-    # driver.maximize_window()
+    driver.maximize_window()
 
     yield driver
 
