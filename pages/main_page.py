@@ -20,14 +20,14 @@ class Main_page(Base):
     phones_locator = "ul.menu-catalog__list-2.maincatalog-list-2 > li:nth-child(12) > a"
     smartphones_locator = "ul.menu-catalog__list-2.maincatalog-list-2 > li.deny-li.opened > ul > li:nth-child(10) > a"
     filter_locator = ".dropdown-filter__btn.dropdown-filter__btn--all"
-    checkbox_locator = "div.filters-desktop__item.j-filter-container.filters-desktop__item--type-1.filters-desktop__item--fbrand.open.show > div.filter > ul > li:nth-child(3) > div"
+    checkbox_locator = "div.filters-desktop__item.j-filter-container.filters-desktop__item--type-1.filters-desktop__item--fbrand.open.show > div.filter > ul > li:nth-child(2) > div"
     max_price_locator = "[name='endN']"
     ready_button_locator = ".filters-desktop__btn-main.btn-main"
-    iphone_locator = "#c141305538 > div > a"
+    iphone_locator = "#c141316097 > div > a"
     add_to_cart_locator = "div.product-page__aside-container.j-price-block > div:nth-child(2) > div > button:nth-child(2)"
     cart_locator = ".navbar-pc__icon.navbar-pc__icon--basket"
     search_box_locator = "#searchInput"
-    airpods_locator = "#c103324608 > div > a"
+    airpods_locator = "#c9842676 > div > a"
     price_locator = "div.product-page__price-block.product-page__price-block--aside > div > div > p > span > ins"
 
     # Getters
